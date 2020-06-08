@@ -2,7 +2,9 @@ import time
 import socket
 import threading
 from server.socket_server import TCPServer
+from server.base_http_server import BaseHttPServer
 from handler.base_handler import StreamRequestHandler
+from handler.base_http_handler import BaseHTTPRequestHandler
 
 class TestBaseRequestHandler(StreamRequestHandler):
     def handle(self):
@@ -44,6 +46,13 @@ class SocketServerTest:
         for client in clients:
             client.join()
 
+class BaseHTTPRequestHandlerTest:
+    def run_server(self):
+        BaseHttPServer(('127.0.0.1', 9999), BaseHTTPRequestHandler).server_forever()
+
+    def run(self):
+        self.run_server()
+
 if __name__ == '__main__':
-    SocketServerTest().run()
-    #BaseHTTPRequestHandlerTest().run()
+    #SocketServerTest().run()
+    BaseHTTPRequestHandlerTest().run()

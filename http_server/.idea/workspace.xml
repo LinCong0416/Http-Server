@@ -20,13 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fcb78ea-a99e-404d-bc24-201661c7484a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/handler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/base_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socket/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socket/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socket/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handler/base_http_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handler/simple_http_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/accounts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/base_http_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/simple_http_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/base_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/handler/base_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/socket_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/socket_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +57,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -102,6 +113,8 @@
       <updated>1590778046340</updated>
       <workItem from="1590778048250" duration="65000" />
       <workItem from="1590778314775" duration="4894000" />
+      <workItem from="1591490032445" duration="358000" />
+      <workItem from="1591554270232" duration="8620000" />
     </task>
     <servers />
   </component>
@@ -118,6 +131,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1238" height="198" key="GridCell.Tab.0.bottom" timestamp="1590783140650">

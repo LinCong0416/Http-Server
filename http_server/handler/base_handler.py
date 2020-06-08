@@ -7,7 +7,6 @@ class BaseRequestHandler:
 
     def handle(self):
         pass
-
     pass
 
 class StreamRequestHandler(BaseRequestHandler):

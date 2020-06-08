@@ -1,7 +1,7 @@
 import socket
 import threading
 class TCPServer:
-    def __init__(self,server_address,handler_class):
+    def __init__(self, server_address, handler_class):
         self.server_address = server_address
         self.HandlerClass = handler_class
         self.socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
