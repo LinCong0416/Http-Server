@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fcb78ea-a99e-404d-bc24-201661c7484a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/handler/base_http_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/simple_http_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/accounts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/base_http_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/simple_http_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/base_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/handler/base_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/socket_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/socket_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="0fcb78ea-a99e-404d-bc24-201661c7484a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +102,7 @@
       <workItem from="1590778048250" duration="65000" />
       <workItem from="1590778314775" duration="4894000" />
       <workItem from="1591490032445" duration="358000" />
-      <workItem from="1591554270232" duration="8620000" />
+      <workItem from="1591554270232" duration="8662000" />
     </task>
     <servers />
   </component>
